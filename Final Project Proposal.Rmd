@@ -1,12 +1,15 @@
 ---
 title: "Final Project Proposal"
-output: html_document
-Author: "Grace Jennings, Nathaniel Hartley, Kartik Chamarti"
+output:
+  pdf_document: default
+  html_document: default
+Author: Grace Jennings, Nathaniel Hartley, Kartik Chamarti
 ---
 
 ### Plastic Pollution in the US
 
-```{r import}
+```{r import,include=FALSE}
+library(tidyverse)
 plastics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-26/plastics.csv')
 ```
 ### Data
@@ -31,4 +34,7 @@ category of plastic contributes the most to pollution, more analysis would
 need to be done to have an idea of it. However, I believe that the
 polystyrene (ps) count would contribute most to pollution because its
 substituents such as toys, cups, and styrofoam is very popular among human use.
+
+Note: Since I used a link to load the data, I am unable to use the data folder.
+Rather, the data folder has a part of my larger dataset. 
 
