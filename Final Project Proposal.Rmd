@@ -8,7 +8,7 @@ Author: Grace Jennings, Nathaniel Hartley, Kartik Chamarti
 
 ### Plastic Pollution in the US
 
-```{r import,include=FALSE}
+```{r import}
 library(tidyverse)
 plastics <- readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-01-26/plastics.csv')
 ```
