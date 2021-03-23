@@ -3,7 +3,7 @@ title: "Final Project Proposal"
 output:
   pdf_document: default
   html_document: default
-Author: Grace Jennings, Nathaniel Hartley, Kartik Chamarti
+Author: "Grace Jennings, Nathaniel Hartley, Kartik Chamarti"
 ---
 
 ### Plastic Pollution in the US
